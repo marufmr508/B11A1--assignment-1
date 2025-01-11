@@ -1,0 +1,201 @@
+.fira-sans-normal {
+    font-family: "Fira Sans", serif;
+    font-style: normal;
+}
+
+/* nav style */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-title {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+.btn-1 {
+    border-radius: 8px;
+    color: #900000;
+    font-size: 18px;
+    font-weight: 600px;
+    padding: 30px;
+    list-style: none;
+}
+
+nav a:hover {
+    background: #584545;
+    color: #900000;
+}
+
+/* banner style */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #C6E4D6;
+    margin: 20px 140px 20px 140px;
+    border-radius: 24px;
+
+}
+
+.banner-content {
+    width: 550px;
+    padding: 80px 100px;
+
+
+}
+
+.banner-pera {
+    font-size: 24px;
+    font-weight: 300px;
+    color: rgba(14, 14, 14, 0.5);
+    padding-top: 117px;
+    padding-bottom: 16px;
+}
+
+.banner-title {
+    font-size: 56px;
+    font-weight: bold;
+    padding: 160px 0px 190px 100px;
+}
+
+.btn-2 {
+    font-size: 18px;
+    font-weight: 600px;
+    padding: 17px 34px;
+    margin: 24px;
+    background: #006A50;
+    color: #FFFFFF;
+    border-radius: 8px;
+
+}
+
+.banner-profile-pic {
+    width: 470px;
+
+    padding: 90px 100px 90px 0px;
+
+}
+
+/* main style */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section {
+    margin-top: 130px;
+}
+
+/* Technology style */
+
+.Vision {}
+
+.vision-title {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 24px;
+}
+
+.vision-description {
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+.technology-content {
+    display: flex;
+    gap: 24px;
+    /* align-items: center;
+    justify-content: space-between; */
+}
+
+.technology {
+    border-radius: 8px;
+    background: #c0b2b2;
+    width: 969px;
+    padding: 32px;
+    padding-bottom: 32px;
+    text-align: start;
+
+}
+
+
+.technology-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.technology-description {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* BUTTON STYLE */
+.btn3 {
+    padding: 11px 20px;
+    background: #5490F5;
+    color: #FFFFFF;
+    border-radius: 8px;
+}
+.btn3:hover{
+    
+    background-color: #703838;
+}
+
+.btn4 {
+    padding: 11px 20px;
+    background: #91f031;
+    color: #4313a3;
+    border-radius: 8px;
+}
+.btn4:hover{
+    background-color: #998bfe;
+}
+
+.btn5 {
+    padding: 11px 20px;
+    background: #33afe9;
+    color: #f6ecec;
+    border-radius: 8px;
+}
+.btn5:hover{
+    background-color: #920538;
+}
+/* Background color style */
+.bgc-1 {
+    background-color: #ffe819;
+}
+
+.bgc-2 {
+    background-color: #8848ff;
+}
+
+.bgc-3 {
+    background-color: #ed2374;
+}
+
+/* Recent News of Aljazeera */
+.news {}
+
+.news-title {
+    font-weight: bold;
+    font-size: 40px;
+
+
+}
+
+.news-description {
+    font-size: 16px;
+    font-weight: 400;
+}
