@@ -80,6 +80,9 @@ nav a:hover {
     border-radius: 8px;
 
 }
+.btn-2:hover{
+    background-color: #50ff25;
+}
 
 .banner-profile-pic {
     width: 470px;
@@ -262,6 +265,7 @@ main section {
     display: flex;
     justify-content: space-between;
     align-items: center;
+   
 }
 
 .donation-taka {
@@ -269,17 +273,18 @@ main section {
     border-radius: 16px;
     font-weight: bold;
     font-size: 40px;
-    gap: 24PX;
-    display: flex;
+    gap: 40PX;
+    /* display: flex; */
     width: 800;
-}
-
+   
+  }
 .donation-option {
     border: 2px solid rgb(72, 50, 50);
     border-radius: 16px;
-    cursor: pointer;
+     
     padding: 40px 40px;
     gap: 24PX;
+     
 }
 
 .donation-option:hover {
@@ -288,10 +293,10 @@ main section {
 }
 
 .other-amount {
-    margin-top: 0 auto;
+    /* margin-top: 0 auto; */
     align-items: center;
-    padding: 20px 100px;
-    flex-direction: column;
+    padding: 20px 40px;
+    /* flex-direction: column; */
     /* display: flex; */
     justify-content: center;
     width: 150;
