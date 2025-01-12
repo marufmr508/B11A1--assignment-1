@@ -1,6 +1,7 @@
 .fira-sans-normal {
     font-family: "Fira Sans", serif;
     font-style: normal;
+    background: #F1F1F3;
 }
 
 /* nav style */
@@ -51,7 +52,8 @@ nav a:hover {
 
 .banner-content {
     width: 550px;
-    padding: 80px 100px;
+    padding: 20px 100px;
+
 
 
 }
@@ -202,7 +204,10 @@ main section {
     align-items: center;
     background-color: #FFFFFF;
     border-radius: 24px;
-    gap: 50px;
+    /* gap: px; */
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
 }
 
 .news {
@@ -260,18 +265,18 @@ main section {
     background-color: #FFFFFF;
     border-radius: 24px;
     gap: 50px;
-
+    padding-left: 20px;
+    padding-bottom: 20px;
 }
 
 .newss {
-    width: 1120px;
+    width: 1140px;
 
 }
 
 .news-profiles {
     border: 10px;
     width: 400;
-
     height: auto;
     border-radius: 24px;
     border: 6px;
@@ -326,10 +331,11 @@ main section {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* background-color: #f0f0f0ff; */
 }
 
 .donation-option {
-    border: 2px solid rgb(72, 50, 50);
+    /* border: 2px solid rgb(72, 50, 50); */
     border-radius: 16px;
     margin: 0px 50px;
     padding: 30px 50px;
@@ -337,6 +343,7 @@ main section {
     font-weight: bold;
     font-weight: 50px;
     box-shadow: #9bc1b7;
+    background-color: #fff;
 }
 
 .donation-option:hover {
@@ -347,25 +354,27 @@ main section {
 .other-amount {
 
     align-items: center;
-    padding: 20px 40px;
-
+    margin: 20px 40px;
+    background-color: #fff;
     justify-content: center;
-
+    border-radius: 8px;
 }
 
-input[type="text"] {
-    padding: 10px 400px;
-    background-color: #FFFFFF;
 
+input[type="text"] {
+    padding: 15px 382px;
+    background-color: #FFFFFF;
+    border: none;
+     
 }
 
 .btn100 {
 
-    padding: 17px 32px;
+    padding: 17px 25px;
     color: rgb(251, 232, 232);
     background-color: #006A50;
     border-radius: 8px;
-    margin-top: 24px;
+    margin-top: auto;
 
 }
 
