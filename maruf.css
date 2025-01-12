@@ -80,7 +80,8 @@ nav a:hover {
     border-radius: 8px;
 
 }
-.btn-2:hover{
+
+.btn-2:hover {
     background-color: #50ff25;
 }
 
@@ -197,24 +198,25 @@ main section {
 
 .news-container {
     display: flex;
-
     justify-content: space-between;
     align-items: center;
     background-color: #FFFFFF;
     border-radius: 24px;
+    gap: 50px;
 }
 
 .news {
     width: 1120px;
-
-
 }
 
 .news-profile {
-    border: 3px;
-    width: 400px;
+    border: 10px;
+    width: 400;
+    height: auto;
     border-radius: 24px;
-    padding: 48px 48px 48px 32px;
+    border: 6px;
+
+
 }
 
 .news-title {
@@ -247,6 +249,65 @@ main section {
     background: #d08c8c;
 }
 
+/* second aljeezara news style */
+.news-s {}
+
+.news-containers {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    gap: 50px;
+
+}
+
+.newss {
+    width: 1120px;
+
+}
+
+.news-profiles {
+    border: 10px;
+    width: 400;
+
+    height: auto;
+    border-radius: 24px;
+    border: 6px;
+
+}
+
+.news-title {
+    font-weight: bold;
+    font-size: 40px;
+
+}
+
+.news-description {
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 30px;
+    padding-top: 12px;
+}
+
+.date-time-container {
+    display: flex;
+    justify-content: start;
+    gap: 12px;
+}
+
+.btn-6second {
+    border-radius: 8px;
+    padding: 13px 26px;
+    background-color: #56b2d4;
+    color: #f6ecec;
+}
+
+.btn-6second:hover {
+    background: #a1ca2f;
+}
+
 /* donate style */
 
 
@@ -265,26 +326,17 @@ main section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
 }
 
-.donation-taka {
-    padding: 40px 40px;
-    border-radius: 16px;
-    font-weight: bold;
-    font-size: 40px;
-    gap: 40PX;
-    /* display: flex; */
-    width: 800;
-   
-  }
 .donation-option {
     border: 2px solid rgb(72, 50, 50);
     border-radius: 16px;
-     
-    padding: 40px 40px;
-    gap: 24PX;
-     
+    margin: 0px 50px;
+    padding: 30px 50px;
+    gap: 24px;
+    font-weight: bold;
+    font-weight: 50px;
+    box-shadow: #9bc1b7;
 }
 
 .donation-option:hover {
@@ -293,28 +345,31 @@ main section {
 }
 
 .other-amount {
-    /* margin-top: 0 auto; */
+
     align-items: center;
     padding: 20px 40px;
-    /* flex-direction: column; */
-    /* display: flex; */
+
     justify-content: center;
-    width: 150;
+
 }
-input[type="text"]{
-    padding: 10px 150px;
+
+input[type="text"] {
+    padding: 10px 400px;
     background-color: #FFFFFF;
- 
+
 }
 
 .btn100 {
 
     padding: 17px 32px;
-    color: white;
+    color: rgb(251, 232, 232);
     background-color: #006A50;
     border-radius: 8px;
+    margin-top: 24px;
 
 }
+
+
 
 .btn100:hover {
     background-color: #88ff20;
@@ -349,11 +404,11 @@ input[type="text"]{
     display: flex;
     justify-content: center;
     align-items: center;
- 
+
 }
 
 .email-container {
- 
+
     width: 600;
     padding: 0px 0px;
 }
@@ -362,7 +417,7 @@ input[type="text"]{
     background-color: #006A50;
     color: #FFFFFF;
     padding: 10px 34px;
-    border-top-right-radius:4px ;
+    border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
 }
 
@@ -374,10 +429,9 @@ input[type="text"]{
     text-align: center;
     color: #0E0E0E;
 }
- input[type="email"]{
+
+input[type="email"] {
     padding: 10px 100px;
-    border-top-left-radius:4px;
+    border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
- }
-  
- 
+}
