@@ -2,7 +2,11 @@
     font-family: "Fira Sans", serif;
     font-style: normal;
     background: #F1F1F3;
+
+
 }
+
+
 
 /* nav style */
 nav {
@@ -267,6 +271,7 @@ main section {
     gap: 50px;
     padding-left: 20px;
     padding-bottom: 20px;
+
 }
 
 .newss {
@@ -314,6 +319,7 @@ main section {
 }
 
 /* donate style */
+
 
 
 .donate-title {
@@ -365,7 +371,7 @@ input[type="text"] {
     padding: 15px 382px;
     background-color: #FFFFFF;
     border: none;
-     
+
 }
 
 .btn100 {
@@ -443,4 +449,38 @@ input[type="email"] {
     padding: 10px 100px;
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
+}
+
+/* .foot {
+    background-color: #FFFFFF;
+    margin: 30px 30px;
+    padding: 48px 24px; */
+
+.DR-yunus {
+    background-color: #FFFFFF;
+    margin: 50px 160px;
+    padding: 48px 24px;
+}
+
+.yunus-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E0E0E;
+    height: 100;
+
+}
+
+
+
+.yunus-title {
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.yunus-p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.6);
+
 }
