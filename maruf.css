@@ -442,7 +442,7 @@ input[type="text"] {
 
 .pp {
     text-align: center;
-    color: #0E0E0E;
+    color: rgba(14, 14, 14, 0.7)
 }
 
 input[type="email"] {
@@ -460,6 +460,7 @@ input[type="email"] {
     background-color: #FFFFFF;
     margin: 50px 160px;
     padding: 48px 24px;
+    display:ruby;
 }
 
 .yunus-description {
